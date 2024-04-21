@@ -1,7 +1,7 @@
 "use client";
 import { useCartStore } from "@/utils/store";
 import { useRouter, useSearchParams } from "next/navigation";
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import ConfettiExplosion from "react-confetti-explosion";
 
 const SuccessPage = () => {
